@@ -1,0 +1,156 @@
+:root {
+  --brand-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --main-color: #757575; /* який домінантний колір? */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--main-color);
+  background-color: var(--white-color);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link.current {
+  color: var(--brand-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--black-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--brand-color);
+}
+.logo-header {
+  color: var(--black-color);
+}
+
+.logo-footer {
+  line-height: 1.4;
+  color: var(--white-color);
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--black-color);
+}
+
+.contacts-link {
+  line-height: 1.2;
+  color: var(--main-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--brand-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--white-color);
+}
+.hero-btn {
+  font-weight: 700;
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+.features-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-item {
+  background-color: var(--white-color);
+}
+
+.team-person {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  color: var(--black-color);
+}
+
+.filter-btn {
+  background-color: #f5f4fa;
+  color: var(--black-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+
+.cards-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--black-color);
+}
+
+.cards-text {
+  line-height: 1.9;
+}
+
+.footer {
+  background-color: var(--black-color);
+}
+
+.item-footer {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.item-footer:hover,
+.item-footer:focus {
+  color: var(--white-color);
+}
+
+.address-footer {
+  font-style: inherit;
+}
